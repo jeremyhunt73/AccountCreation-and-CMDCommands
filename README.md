@@ -20,9 +20,12 @@ I headed over to Active Directory Users and Computers to enable advanced feature
 <img src="https://i.imgur.com/uiRwLGC.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 <br />
  <br />
-In the System page i was beforehand, clicked Performance → Settings → maked sure all boxes are turned off. <br/>
+Right clicked on computers, selected find, and typed in Guest. Note: searching for a user must be done via the entire directory, not only computers. This will make finding a user way more effective. <br/>
  <br />
-<img src="https://i.imgur.com/kUGdfq3.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<img src="https://i.imgur.com/bCwhFu8.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<br />
+<br />
+<img src="https://i.imgur.com/qGWVUZI.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 <br />
 <br />
 Opened Server manager, clicked manage and "Add roles and features". This will open the setup for installing Active Directory, I followed along.  <br/>
