@@ -1,7 +1,7 @@
 <h1>Account creation and CMD Commands</h1>
 
 <h2>Description</h2>
-This project consists of changing the default computer name to one that´s easier to be familiar with, and installing Active Directory, a key component. This project is very important, since it will prepare the machine for everyday tasks on IT support.
+This project consists on creating an account on Server 2016 by copying an existing one. Also, a few CMD commands for viewing very important information like IP address and info related to a user. Knowing these concepts is fundamental on day-to-day IT support tasks, it lets us identify computers and finding users.
 <br />
 
 
@@ -16,11 +16,8 @@ This project consists of changing the default computer name to one that´s easie
 <h2>Walk-through:</h2>
 
 <p align="center">
-Opened up explorer → Properties by right clicking This PC → Change settings and named the computer Server 2016. This will prompt a restart, so I clicked OK to restart the machine.  <br/>
-<img src="https://i.imgur.com/JrzCrim.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
-<br />
- <br />
- <img src="https://i.imgur.com/BdBjDCL.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+I headed over to Active Directory Users and Computers to enable advanced features. <br/>
+<img src="https://i.imgur.com/uiRwLGC.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 <br />
  <br />
 In the System page i was beforehand, clicked Performance → Settings → maked sure all boxes are turned off. <br/>
