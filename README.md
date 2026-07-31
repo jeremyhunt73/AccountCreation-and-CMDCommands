@@ -28,17 +28,26 @@ Right clicked on computers, selected find, and typed in Guest. Note: searching f
 <img src="https://i.imgur.com/qGWVUZI.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 <br />
 <br />
-Opened Server manager, clicked manage and "Add roles and features". This will open the setup for installing Active Directory, I followed along.  <br/>
+Headed over to Active Directory Administravive Center, opened the local user and enabled recycle bin. This took a few minutes, it created a Deleted Objects folder. Also, this feature is useful if something is deleted by accident. <br/>
  <br />
-<img src="https://i.imgur.com/IFV6tC6.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<img src="https://i.imgur.com/fp1kEfI.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 <br />
 <br />
- <img src="https://i.imgur.com/Wuh8AoF.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+ <img src="https://i.imgur.com/lQ0VBR2.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 <br />
-<br />
-The Deployment configuration popped up after waiting at the previous step. I selected "Add a new forest" and typed "jerhunt.com" as the domain name.  <br/>
  <br />
-<img src="https://i.imgur.com/aP7tdM2.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<img src="https://i.imgur.com/NsGgdZe.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<br />
+<br />
+To add a new user, I headed over to AD Users and Computers → right clicked on a user → copy → filled in first, full, and user logon name → created a password. This is called Automation; creating a user by doing it this way saves time and effort, the which is very effective. In this case, since I copied the Admin, that account is going appear in several groups. <br/>
+ <br />
+<img src="https://i.imgur.com/MGarC7D.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<br />
+<br />
+<img src="https://i.imgur.com/oVe8Lze.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<br />
+<br />
+<img src="https://i.imgur.com/lMqj7ib.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 <br />
 <br />
 After waiting for the installation, I set a secure password. I also set the NetBIOS to JERHUNT.  <br/>
