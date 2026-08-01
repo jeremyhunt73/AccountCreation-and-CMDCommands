@@ -50,22 +50,22 @@ To add a new user, I headed over to AD Users and Computers → right clicked on 
 <img src="https://i.imgur.com/lMqj7ib.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 <br />
 <br />
-After waiting for the installation, I set a secure password. I also set the NetBIOS to JERHUNT.  <br/>
+The first CMD comand is "ipconfig". This one is essential, since it shows information used everyday on IT support.  <br/>
  <br />
-<img src="https://i.imgur.com/uBp1PAT.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<img src="https://i.imgur.com/ESUGhdY.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
  <br />
 <br />
-<img src="https://i.imgur.com/Ip6rIFS.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
-<br />
-<br />
-Afterwards, the installation is complete and I now have Active Directory. This can be found in "Tools" at the navigation bar in Server Manager. I pinned Active Directory Users and Computers to my taskbar, because this is the bread and butter of IT support.  <br/>
+"ipconfig /all" shows even more information than the previous command, it's a more complete version.  <br/>
  <br />
-<img src="https://i.imgur.com/9gZs6Jw.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<img src="https://i.imgur.com/O2UHJoz.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 <br />
+<br />
+"net user username /domain" is very important because it shows information about the user and passwords on that account.  <br/>
  <br />
-<img src="https://i.imgur.com/zFsKtH2.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<img src="https://i.imgur.com/mhdxaqT.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 <br />
-<!--
+<br />
+ 
  ```diff
 - text in red
 + text in green
